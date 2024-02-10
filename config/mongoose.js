@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 require("dotenv").config();
 
 // retrieve the MongoDB connection URI from the environment variables
-const mongodbUrl = "mongodb+srv://ssoumyajit245:QhX8XzKYL4A7g8M4@cluster0.nftbems.mongodb.net/issue_tracker?retryWrites=true&w=majority";
+const mongodbUrl = "mongodb+srv://ssoumyajit245:zMjuiXL4bToQSL1s@cluster0.dcs4igg.mongodb.net/issueTracker02?retryWrites=true&w=majority";
 
 // connect to the database with additional options to avoid deprecation warnings
 mongoose.connect(mongodbUrl, { useNewUrlParser: true, useUnifiedTopology: true });
